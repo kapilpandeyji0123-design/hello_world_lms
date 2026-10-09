@@ -1,0 +1,47 @@
+:root {
+  /* ---- Color: "Studio Ink" palette ---- */
+  --paper: #F6F7FB;          /* cool light background, not cream */
+  --paper-raised: #FFFFFF;   /* card surface */
+  --ink: #12131A;            /* primary text, near-black */
+  --ink-soft: #565B6E;       /* secondary text */
+  --ink-faint: #8A8FA3;      /* tertiary / placeholder text */
+  --line: #E4E6F0;           /* hairline borders */
+  --line-strong: #CBCEE0;
+
+  --brand: #3F35C5;          /* deep indigo — focus, trust */
+  --brand-ink: #2A2290;      /* pressed/darker indigo */
+  --brand-tint: #ECEBFC;     /* pale indigo surface */
+
+  --accent: #FF8A3D;         /* warm coral-amber — momentum/progress */
+  --accent-tint: #FFEEE0;
+
+  --success: #16A34A;
+  --success-tint: #E7F8EE;
+  --warning: #D9A404;
+  --warning-tint: #FDF5DC;
+  --danger: #E1483F;
+  --danger-tint: #FCEAE9;
+
+  /* ---- Dark surfaces (sidebars / footer / hero) ---- */
+  --ink-950: #0D0E14;
+  --ink-900: #14151F;
+  --ink-800: #1D1F2E;
+  --ink-700: #2A2C40;
+
+  /* ---- Typography ---- */
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ---- Shape / elevation ---- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(18,19,26,0.06);
+  --shadow-md: 0 8px 24px rgba(18,19,26,0.08);
+  --shadow-lg: 0 20px 48px rgba(18,19,26,0.14);
+
+  --track-gradient: linear-gradient(90deg, var(--brand) 0%, var(--accent) 100%);
+}
